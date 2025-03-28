@@ -31,6 +31,7 @@ def create_trade(_df):
     # 보유 내역 컬럼을 생성 '' 대입
     result['trade'] = ''
 
+
     # 내역 추가 
     for idx in result.index:
         # 상단 밴드보다 기준이 되는 컬럼의 값이 크거나 같은 경우
