@@ -11,7 +11,6 @@ def buyandhold(
     result = _df.copy()
     # 인덱스가 0부터 시작하는 인덱스 // Date 인덱스 경우 
 
-    
     # 시작시간과 종료시간을 기준으로 데이터를 필터링 -> 특정 컬럼만 필터링
     result = result.loc[_start : _end, [_col]]
     print(_start)
