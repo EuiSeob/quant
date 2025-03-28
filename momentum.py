@@ -84,4 +84,4 @@ def create_trade(
         # 구매 신호를 result에 대입 
         result.loc[idx:, 'trade'] = signal
     
-    return result
+    return result 
